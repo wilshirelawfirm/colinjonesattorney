@@ -2,6 +2,9 @@
 
 @section('title', 'Thank You')
 
+@section('description', "Thank you for contacting Colin Jones, we will be in touch with you soon." )
+
+@section('follow', 'noindex, follow')
 
 @section('sidebar')
     @parent

@@ -2,6 +2,8 @@
 
 @section('title', 'Contact')
 
+@section('description', "Contact Wilshire Law Firm, or attorney Colin Jones specifically." )
+
 @section('sidebar')
     @parent
 @endsection

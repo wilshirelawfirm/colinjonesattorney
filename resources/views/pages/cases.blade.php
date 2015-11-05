@@ -1,6 +1,8 @@
 @extends('layouts.base')
 
-@section('title', 'Cases')
+@section('title', "Colin Jones' Cases")
+
+@section('description', "Learn about the cases and cae types that attorney Colin Jones handles." )
 
 @section('sidebar')
     @parent

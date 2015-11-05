@@ -2,6 +2,8 @@
 
 @section('title', config('attorney.name'))
 
+@section('description', "Colin Jones is an elite trial attorney who specializing in major accident and catastrophic injury cases." )
+
 @section('sidebar')
     @parent
 @endsection

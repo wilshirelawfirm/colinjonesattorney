@@ -2,6 +2,7 @@
 
 @section('title', 'About '. config('attorney.name') )
 
+@section('description', "California trial atorney Colin Jones, Esq. is among the very best trial lawyers in the nation." )
 
 @section('sidebar')
     @parent
