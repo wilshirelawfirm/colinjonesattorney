@@ -9,7 +9,6 @@ use App\Contact;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\ContactRequest;
-use Illuminate\Support\Facades\Mail;
 
 
 class ContactController extends Controller
