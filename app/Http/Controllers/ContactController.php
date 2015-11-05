@@ -39,6 +39,7 @@ class ContactController extends Controller
 
         Mail::queue('email.contact', $data, function ($message) use ($data) {
           $message->subject('Lead: '.$data['name'])
+                  ->sender(config('attorney.lead_email'), config('attorney.lead_email_name'))
                   ->to(config('attorney.lead_email'))
                   ->replyTo(config('attorney.lead_email'));
         });
