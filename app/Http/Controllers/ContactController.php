@@ -37,7 +37,7 @@ class ContactController extends Controller
         $data = $request->only('name', 'email', 'phone');
         $data['messageLines'] = explode("\n", $request->get('message'));
 
-        Mail::queue('emails.contact', $data, function ($message) use ($data) {
+        Mail::queue('email.contact', $data, function ($message) use ($data) {
           $message->subject('Lead: '.$data['name'])
                   ->to(config('attorney.lead_email'))
                   ->replyTo(config('attorney.lead_email'));
