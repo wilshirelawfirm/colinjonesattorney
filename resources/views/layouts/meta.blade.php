@@ -4,10 +4,10 @@
     	<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="@yield('description')">
-        <title>Attorney - @yield('title')</title>
+        <title>@yield('title')</title>
         <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
 		<meta name="robots" content="@yield('follow', 'index, follow')">
-		
+
 	    <link rel="stylesheet" href="{{ asset('assets/css/ui.css') }}">
 	    <!--[if lte IE 8]>
 	        <link rel="stylesheet" href="assets/css/ui-ie.css">

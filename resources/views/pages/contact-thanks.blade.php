@@ -1,6 +1,6 @@
 @extends('layouts.base')
 
-@section('title', 'Thank You')
+@section('title', 'Thank You for Contacting Colin')
 
 @section('description', "Thank you for contacting Colin Jones, we will be in touch with you soon." )
 

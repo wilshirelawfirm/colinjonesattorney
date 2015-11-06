@@ -1,8 +1,8 @@
 @extends('layouts.base')
 
-@section('title', "Colin Jones' Cases")
+@section('title', "Colin Jones, Esq - Court Cases")
 
-@section('description', "Learn about the cases and cae types that attorney Colin Jones handles." )
+@section('description', "Colin Jones is a an elite California based plaintiff's attorney, who represents individuals who have been injured." )
 
 @section('sidebar')
     @parent

@@ -1,6 +1,6 @@
 @extends('layouts.base')
 
-@section('title', 'Contact')
+@section('title', 'Contact Colin Jones - Wilshire Law Firm')
 
 @section('description', "Contact Wilshire Law Firm, or attorney Colin Jones specifically." )
 

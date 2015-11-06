@@ -1,8 +1,8 @@
 @extends('layouts.base')
 
-@section('title', config('attorney.name'))
+@section('title', 'Attorney '.config('attorney.name'))
 
-@section('description', "Colin Jones is an elite trial attorney who specializing in major accident and catastrophic injury cases." )
+@section('description', "Colin Jones is one of the nation's top trial lawyers. He is a plaintiff's attorney who specializes in major accident and catastrophic injury cases in California." )
 
 @section('sidebar')
     @parent
@@ -20,13 +20,10 @@
         
             <h2 class="content-subhead">Personal Injury Attorney</h2>
             <p>
-				Renowned personal injury trial attorney Colin Jones is dedicated to protecting the interests of injury victims throughout California. 
+				Colin Jones is a personal injury trial lawyer dedicated to helping injury victims who have been wronged. A lawyer of the people, he never pursues cases against individuals, but only large entities. Always a fair and willing negotiator, Colin resorts to litigation only when the defendant refuses to settle in good faith. He cannot and does not tolerate dishonest insurance companies and corporations that think they can use their power and resources to bully vulnerable injury victims into submission, and he fights tenaciously to make them pay for their offenses in court.  
             </p>
             <p>
-                Colin has dedicated his legal career to the "little guy",  fighting insurance companies and corporations who try to duck responsibility by paying injured victims pennies on the dollar. Many attorneys "talk the talk" and  claim they are trial lawyers, but few "walk the walk" and take cases to jury verdict. When it’s time for battle, Colin is the trial warrior they send their cases to. With positive verdicts in three different states, Colin attributes his success to discovering his client's story and being able to share that with a jury.
-            </p>
-            <p>
-            	For Colin, it is important to show the jurors that every client he represents, the compensation he is seeking is from stingy insurance companies, and not helpless individuals. By clearly communicating that compensation is being sought from monolithic corporations, he finds great success in acquiring compensation in line with the pain, suffering, personal injuries and damages to personal property, that his client's endured. 
+                When it's time for trial, Colin battles with integrity. His sole winning strategy is to discover his client's story and share that with the jury. He has faith in his clients and the court system, and believes that jurors only need to hear the truth in order to make the right call. 
             </p>
 
             <p style="text-align: center">
